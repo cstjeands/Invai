@@ -74,4 +74,3 @@ if st.button("Run Simulation"):
         st.line_chart(df['Close'])
     except Exception as e:
         st.error("Unable to fetch data. Please try a different symbol.")
-Add smartinvest_app.py
